@@ -1,0 +1,6 @@
+[16:47:01] === ROBS FARMER AGENT ===
+[16:47:01] À escuta na porta 9876, à espera do PC principal...
+[16:47:03] Ligação de 127.0.0.1
+[16:47:03] PC principal autenticado
+[16:47:03] CS2 fechado na Ally (1 processo(s))
+[16:47:03] Desligado: 127.0.0.1

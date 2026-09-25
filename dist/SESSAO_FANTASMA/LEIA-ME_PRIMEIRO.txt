@@ -1,0 +1,43 @@
+=====================================================
+ CS2 ROBS FARMER - SESSAO FANTASMA (o teu "container")
+=====================================================
+
+Como funciona: o farm corre na sessao Windows da conta "farmbot",
+que fica viva em segundo plano (troca de utilizador do Windows,
+sem VM, sem RDP, sem lag). O teu PC fica 100% teu.
+
+CREDENCIAIS DA SESSAO FANTASMA
+------------------------------
+Utilizador: farmbot
+Password:   RobsFarm2026!
+
+USO DIARIO (30 segundos):
+-------------------------
+1. Menu Iniciar  ->  clica no teu avatar/nome  ->  farmbot
+   (o Windows troca de utilizador; a tua sessao fica guardada)
+2. Dentro do farmbot: duplo clique em 2_INICIAR_FARM.bat
+   (espera o CS2 abrir; faz login no Steam se pedir - so a 1a vez)
+3. Menu Iniciar  ->  avatar  ->  Robs  (voltas a tua sessao)
+4. Abre o painel CS2 Robs Farmer.exe:
+   - Destino Remoto, IP 127.0.0.1, token robs (ja esta pre-feito)
+   - Ve o VIDEO AO VIVO do jogo la dentro
+   - INICIAR / F8 / LIBERAR CONTA - tudo funciona
+
+QUANDO QUERES JOGAR NO PC:
+--------------------------
+1. Painel: botao "LIBERAR CONTA" (fecha CS2+Steam da sessao farmbot)
+2. Jogas a vontade na tua conta
+3. Para retomar: repetir o USO DIARIO
+
+QUANDO QUERES ENTRAR NA SESSAO FARMBOT:
+---------------------------------------
+Menu Iniciar  ->  avatar  ->  farmbot  (esta tudo como deixaste)
+
+NOTAS
+-----
+- Enquanto o farm estiver ativo, nao abras Steam na tua sessao
+  (Steam nao corre 2x na mesma maquina). Usa LIBERAR CONTA antes.
+- Se o Windows mostrar o ecra de bloqueio, escolhe a conta que
+  quiseres - as duas sessoes continuam la.
+- Primeira vez: o farmbot demora um pouco a criar o perfil.
+  E normal.

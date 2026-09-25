@@ -1,0 +1,34 @@
+CS2 ROBS FARMER - GUIA DE HARDWARE (Arduino + Comando Virtual)
+================================================================
+
+O programa escolhe automaticamente a melhor saida de input:
+
+1) ARDUINO LEONARDO (hardware real, a melhor)
+   - O CS2 ve um teclado/rato USB fisico a serio
+   - O teu rato/teclado ficam 100% livres
+   - Como usar: liga o Leonardo por USB a maquina que vai farmar
+     (teu PC no modo Local, ou a Ally). Pronto, ele deteta sozinho.
+
+   Se precisares de voltar a programar o Arduino:
+   - Abre a pasta robs_farmer\robs_farmer.ino no Arduino IDE
+   - Tools > Board > Arduino Leonardo, Tools > Port > COM do Arduino
+   - Upload. (o ficheiro ja esta compilado e a funcionar)
+
+2) COMANDO VIRTUAL ViGEm (opcional, modo "Comando")
+   - Cria um comando Xbox virtual que o CS2 ve como hardware real
+   - Requer o driver ViGEmBus instalado NA MAQUINA QUE FARMA
+     - No teu PC: ja esta instalado e testado
+     - Na Ally: corre ViGEmBus_Setup.exe (duas vezes se precisares,
+       e reinicia). Se o video nao ligar, so precisas do driver para
+       o modo Comando.
+
+3) SEM NENHUM DOS DOIS
+   - Usa SendInput (teclado/rato virtual por software), como antes.
+
+COM O ARDUINO LIGADO AO PC (modo Local):
+   - O farm usa o Arduino: o teclado/rato do PC ficam livres
+   - Podes continuar a usar o PC enquanto ele farma!
+
+COM O ARDUINO LIGADO A ALLY:
+   - O agente na Ally usa o Arduino automaticamente
+   - O painel mostra "Saida: Arduino" quando o deteta la
